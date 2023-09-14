@@ -1,0 +1,134 @@
+/*  */
+.hero {
+  background: linear-gradient(155.28deg, #383638 2.06%, #0b0b0b 33.08%);
+  padding-bottom: 142px;
+}
+.header {
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  margin-bottom: 102px;
+}
+.header-logo__link {
+  display: flex;
+  align-items: center;
+  margin-right: 217px;
+}
+.header-logo {
+}
+.header-logo__text {
+  color: #ffffff;
+}
+.site-nav__list {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+.site-nav__item {
+  cursor: pointer;
+}
+.site-nav__link {
+  color: #8b8e99;
+}
+.header__options {
+  display: flex;
+  gap: 16px;
+}
+.header__options-link {
+}
+.click-path-icon {
+  visibility: hidden;
+  transition: 0.3s;
+}
+.site-nav__item:hover .click-path-icon {
+  visibility: visible;
+}
+
+.header__options-icon {
+}
+.header__options-shopping-cart-icon {
+}
+.header__options-link-shopping-cart-icon {
+  position: relative;
+  transition: 0.3s;
+}
+.header__options-link-shopping-cart-icon::after {
+  content: "1";
+  color: #ffffff;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: #3858d6;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  top: 0;
+  right: 0;
+  transition: 0.3s;
+  /* visibility: hidden; */
+}
+/* .header__options-link-shopping-cart-icon:hover::after{
+   visibility: visible;
+  } */
+/* header */
+.discover {
+}
+.container {
+}
+.discover__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.discover__info-wrapper {
+  width: 457px;
+  text-align: start;
+}
+.discover__info-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 8rem;
+  color: #ffffff;
+  margin-bottom: 37px;
+}
+.discover__info-text {
+  line-height: 2rem;
+  text-align: justify;
+  color: #8b8e99;
+  margin-bottom: 47px;
+}
+.discover__info-find {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 15px;
+}
+.find-icon {
+  margin: 0 21px;
+}
+input {
+  border: none;
+  height: 30px;
+}
+.discover__search-button {
+  padding: 12px 26px;
+
+  background: #3858d6;
+  border-radius: 9px;
+  margin: 7px 9px 8px auto;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.discover__info-img {
+}
+/* discaver */

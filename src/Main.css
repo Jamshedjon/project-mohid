@@ -1,0 +1,348 @@
+.product {
+}
+.container {
+}
+.product__wrapper {
+  padding-top: 73px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product__top {
+}
+.product__top-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19px;
+  margin-bottom: 135px;
+}
+.product__top-item {
+  width: 354px;
+  display: flex;
+  background: #f6f6f6;
+  border-radius: 22px;
+  align-items: center;
+}
+.product__top-img-apple {
+  padding: 46px 26px 45px 41px;
+}
+.product__title-wrapper {
+  width: 176px;
+}
+.product__top-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #1e1d1d;
+  margin-bottom: 9px;
+}
+.product__top-text {
+  line-height: 19px;
+
+  color: #8b8e99;
+}
+.product__top-img-xiaomi {
+  padding: 46px 26px 45px 41px;
+}
+.product__top-img-fitbit {
+  padding: 46px 26px 45px 41px;
+}
+.product__info-link {
+  color: #3858d6;
+}
+.product__info-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #1e1d1d;
+  margin-bottom: 65px;
+}
+.product__bottom {
+  margin-bottom: 69px;
+}
+.product__bottom-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product__bottom-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: auto;
+  margin-bottom: 64px;
+}
+
+.product-apple-smart1-link {
+}
+.product-apple-smart2-link {
+}
+.product-apple-smart3-link {
+}
+.apple-smart4-link {
+}
+.product-samsung-pro-link {
+}
+.product-fitbit-max1-link {
+}
+.productSyle {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  right: 15px;
+  transition: 0.2s ease;
+
+  top: 10px;
+  visibility: hidden;
+}
+.product__bottom-item:hover .productSyle {
+  visibility: visible;
+}
+
+/*  */
+.product__bottom-item-bg {
+  width: 334px;
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 11px;
+}
+
+.product__bottom-img {
+  margin-top: 29px;
+  margin-bottom: 27px;
+}
+.product__bottom-korzinka-link {
+}
+.product__bottom-korzinka-shopping-cart-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px;
+  background: #3858d6;
+  border-radius: 50%;
+}
+.product__bottom-korzinka-love-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  background: #ff6b6b;
+  border-radius: 50%;
+}
+.product__bottom-list-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1e1d1d;
+  margin-bottom: 8px;
+}
+.star {
+  margin-bottom: 8px;
+}
+.product__price {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #8b8e99;
+  mix-blend-mode: normal;
+  text-decoration: line-through;
+}
+.product__btn {
+  margin-bottom: 135px;
+}
+.product__btn-link {
+  padding: 9px 45px 10px 45px;
+  background: #3858d6;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+/* product */
+.about-us {
+}
+.about-us__wrapper {
+  font-family: "Inter";
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 91px;
+}
+.container {
+}
+.about-us__link {
+  color: #3858d6;
+  margin-bottom: 5px;
+}
+.about-us__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #1e1d1d;
+  margin-bottom: 54px;
+}
+.person__list {
+  display: flex;
+  gap: 47px;
+  margin-bottom: 43px;
+}
+.person__item {
+  width: 524px;
+  background: #f6f6f6;
+  border-radius: 22px;
+}
+.person__item-wrapper {
+  display: flex;
+  align-items: center;
+}
+.person__img {
+  padding-top: 30px;
+  padding-left: 35px;
+  padding-bottom: 30px;
+  padding-right: 29px;
+}
+.person__info {
+  margin-right: 38px;
+}
+.person__info-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1e1d1d;
+  margin-bottom: 10px;
+}
+.person__info-text {
+  color: #8b8e99;
+  margin-bottom: 9px;
+}
+.person__info-star {
+}
+.person__list-radio {
+  margin-bottom: 135px;
+}
+.person__list-nav {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.person__list-nav-item1 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  transition: 0.3s;
+}
+.person__list-nav-item2 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  transition: 0.3s;
+}
+.person__list-nav-item3 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  transition: 0.3s;
+}
+.person__list-nav-item4 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  transition: 0.3s;
+}
+.person__list-nav-item5 {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  transition: 0.3s;
+}
+/* hover */
+.person__list-nav-item1:hover {
+  background: #3858d6;
+}
+.person__list-nav-item2:hover {
+  background: #3858d6;
+}
+.person__list-nav-item3:hover {
+  background: #3858d6;
+}
+.person__list-nav-item4:hover {
+  background: #3858d6;
+}
+.person__list-nav-item5:hover {
+  background: #3858d6;
+}
+/*  */
+
+.person__list-link {
+}
+.subscribe-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1100px;
+  background: #f6f6f6;
+  border-radius: 22px;
+}
+.subscribe-page__info {
+  margin-left: 97px;
+}
+.subscribe-page__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #1e1d1d;
+  margin-bottom: 12px;
+}
+.subscribe-page__text {
+  color: #8b8e99;
+  margin-bottom: 12px;
+}
+.subscribe-page__input-wrapper {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 443px;
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subscribe-page__input-button {
+  padding: 12px 13px;
+  background: #3858d6;
+  border-radius: 9px;
+  margin: 7px 9px 8px auto;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+}
+input {
+  margin-left: 30px;
+}
+.subscribe-page__watch-img {
+  margin-right: 110px;
+  padding-top: 33px;
+  padding-bottom: 43px;
+}

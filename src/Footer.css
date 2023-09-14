@@ -1,0 +1,13 @@
+.footer {
+  background: #0b0b0b;
+}
+.footer__wrapper {
+  width: 100%;
+  text-align: center;
+}
+.footer__text {
+  font-family: "Poppins";
+  color: #ffffff;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
